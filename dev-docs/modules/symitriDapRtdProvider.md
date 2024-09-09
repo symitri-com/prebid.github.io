@@ -89,6 +89,22 @@ Use 'compositeid' to pass in multiple identifiers as key-value pairs as shown be
 } 
 ```
 
+
+
+### identityType
+Use 'simpleid' to pass email or other plain text ids and SymitriRTD Module will hash it.
+
+Use 'hashedid' to pass in single already hashed id. 
+
+Use 'compositeid' to pass in multiple identifiers as key-value pairs as shown below:
+```bash
+{
+  "identityType1": "identityValue1",
+  "identityType2": "identityValue2",
+  ...
+} 
+```
+
 ### Testing
 
 To view an example of available segments returned by dap:
